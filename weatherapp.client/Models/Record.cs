@@ -8,6 +8,8 @@ public class Record : IHasGuidId, IHasDateStamp, IHasSoftDelete
   public double Lon { get; set; } = 0;
   public string Country {  get; set; } = string.Empty;
   public string State {  get; set; } = string.Empty;
+  public Guid CurrentWeatherId { get; set; } = string.Empty;
   public CurrentWeather? CurrentWeather { get; set; }
+  public Guid FiveDaysWeatherId { get; set; } = string.Empty;
   public FiveDaysWeather? FiveDaysWeather { get; set; }
 }
