@@ -1,0 +1,1 @@
+Welcome to official Weather App repository. If you are interested in beta, it is a completely different <a href="https://github.com/OkolJr/WAbeta">repository</a>.
